@@ -1,5 +1,5 @@
 <!-- Favicon -->
-<link rel="shortcut icon" href="https://www.pikeadmin.com/demo-pro/assets/images/favicon.ico">
+<link href="{{ asset('public/assets/images/favicon.ico') }}" rel="shortcut icon">
 <!-- Switchery css -->
 {{ Html::style('public/assets/plugins/switchery/switchery.min.css') }}
 <!-- Bootstrap CSS -->
