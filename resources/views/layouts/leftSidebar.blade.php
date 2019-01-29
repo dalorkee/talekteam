@@ -4,7 +4,7 @@
 		<div id="sidebar-menu">
 			<ul>
 				<li class="submenu">
-					<a href="account.php?page=dashboard"><i class="fa fa-fw fa-bars"></i><span> Dashboard </span> </a>
+					<a href="account.php?page=dashboard"><i class="fa fa-fw fa-bars"></i><span> ALL </span> </a>
 				</li>
 				<li class="submenu">
 					<a href="account.php?page=charts"><i class="fa fa-fw fa-area-chart"></i><span> Charts </span> </a>
