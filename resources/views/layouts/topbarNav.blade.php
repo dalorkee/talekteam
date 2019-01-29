@@ -2,7 +2,7 @@
 <div class="headerbar">
 	<!-- LOGO -->
 	<div class="headerbar-left">
-		<a href="index.html" class="logo"><img src="https://www.pikeadmin.com/demo-pro/assets/images/logo.png" /> <span>Talek team</span></a>
+		<a href="#" class="logo">{{ Html::image('public/assets/images/logo.png') }} <span>Talek team</span></a>
 	</div>
 	<nav class="navbar-custom">
 		<ul class="list-inline float-right mb-0">
@@ -18,7 +18,7 @@
 					<!-- item-->
 					<a href="#" class="dropdown-item notify-item">
 						<p class="notify-details ml-0">
-							<b>Foxy Johnes</b>
+							<b>Talek</b>
 							<span>New message received</span>
 							<small class="text-muted">Yesterday, 13:30</small>
 						</p>
@@ -39,7 +39,7 @@
 					<!-- item-->
 					<a href="#" class="dropdown-item notify-item">
 						<div class="notify-icon bg-faded">
-							<img src="assets/images/avatars/avatar2.png" alt="img" class="rounded-circle img-fluid">
+							{{ Html::image('public/assets/images/avatars/avatar2.png', 'alt=img', ['class'=>'rounded-circle img-fluid']) }}
 						</div>
 						<p class="notify-details">
 							<b>John Doe</b>
@@ -53,7 +53,7 @@
 			</li>
 			<li class="list-inline-item dropdown notif">
 				<a class="nav-link dropdown-toggle nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-					<img src="https://www.pikeadmin.com/demo-pro/uploads/avatars/72c1bff3-photo.jpg" alt="Profile image" class="avatar-rounded">
+					{{ Html::image('public/assets/images/avatars/avatar5.png', 'alt=Profile image', ['class'=>'avatar-rounded']) }}
 				</a>
 				<div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
 					<!-- item-->
