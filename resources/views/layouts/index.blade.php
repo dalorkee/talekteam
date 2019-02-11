@@ -16,7 +16,9 @@
 	<div id="main">
 		@include('layouts.topbarNav')
 		@include('layouts.leftSidebar')
-		@include('layouts.contents')
+		<div class="content-page">
+			@yield('content')
+		</div>
 		@include('layouts.footer')
 	</div>
 	<!-- END main -->
