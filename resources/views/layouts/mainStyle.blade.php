@@ -7,4 +7,4 @@
 <!-- Font Awesome CSS -->
 {{ Html::style('public/assets/font-awesome/css/font-awesome.min.css') }}
 <!-- Custom CSS -->
-{{ Html::style('public//assets/css/style.css') }}
+{{ Html::style('public/assets/css/style.css') }}
